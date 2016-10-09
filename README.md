@@ -18,16 +18,16 @@ Hope it helps to get started with React and ES2015.
 
 This is not published but you can use it locally by cloning this repository and then linking it to your system using [`npm link`](http://stackoverflow.com/a/24058994).
 
-```git
+```bash
 git clone https://github.com/afarriaga/generator-react-babelify.git
 cd generator-react-babelify
 
 npm link
 ```
 
-Then create a folder where you want to scaffold and generate your new project:
+Then create a folder where you want to scaffold, navigate into it and then generate your new project:
 
-```git
+```bash
 yo react-babelify
 ```
 
