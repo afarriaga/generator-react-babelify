@@ -1,0 +1,101 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code, pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 15px 0;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+.comment {
+  margin: 1em auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.form-input-text {
+  padding: 0.5em;
+  font-size: 1em;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1em;
+  width: 60%;
+  box-sizing: border-box;
+}
+
+.form-input-text:focus {
+  outline: none;
+  border-bottom: 2px solid #bbb;
+}
+
+.form-input-submit {
+  display: block;
+  padding: 0.25em 2em;
+  font-size: 1em;
+  cursor: pointer;
+  color: white;
+  background: #06b12e;
+  border: none;
+  border-bottom: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+.form-input-submit:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.form-input-submit:focus {
+  outline: none;
+  background: #21c347;
+}
